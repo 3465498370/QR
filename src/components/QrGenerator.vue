@@ -121,7 +121,7 @@ function generateQr() {
     return
   }
   // 生成二维码内容为Vercel生产环境地址
-  const base = 'https://qr-gsd7.vercel.app/'
+  const base = 'https://qr-eta-two.vercel.app/'
   const url = `${base}redirect.html?type=${encodeURIComponent(form.value.type)}&content=${encodeURIComponent(form.value.content)}`
   qrValue.value = url
 }
